@@ -4,17 +4,14 @@ public class Test {
 
     public static void main(String[] args) {
         printThreeWords();
-        checkSumSign(11,31);
+        checkSumSign();
         printColor();
-        compareNumbers(5,8);
-        boolean resultFive = checkSumInRange(6, 5);
-        System.out.println("Задание 5 " + resultFive);
+        compareNumbers();
+        checkSumInRange(6, 5);
         checkNumber(67);
-        boolean resultSeven = isNegative(-45);
-        System.out.println("Задание 7 " + resultSeven);
+        isNegative(-45);
         printStringMultipleTimes(3, "Hello");
-        boolean resultNine = checkLeapYear(2024);
-        System.out.println("Задание 9 " + resultNine);
+        checkLeapYear(2024);
         toggleArrayElements();
         fillArray();
         multiplySmallNumbersByTwoIfLessThanSix();
@@ -26,8 +23,11 @@ public class Test {
         System.out.println("Задание 1 " + "Orange, Banana, Apple");
     }
 
-    static void checkSumSign(int a, int b) {
-        if (a+b >= 0) {
+    static void checkSumSign() {
+        int a = 11;
+        int b = 31;
+        int z = a + b;
+        if (z >= 0) {
             System.out.println("Задание 2 " + "Сумма положительная");
         } else {
             System.out.println("Задание 2 " + "Сумма отрицательная");
@@ -36,14 +36,16 @@ public class Test {
 
     static void printColor() {
         int value = 3;
-        if (value < 0) {
+        if (value <= 0) {
             System.out.println("Задание 3 " + "Красный");
-        } else if (value <= 100) {
+        } else if (value < 100) {
             System.out.println("Задание 3 " + "Желтый");
         } else System.out.println("Задание 3 " + "Зеленый");
     }
 
-    static void compareNumbers(int a, int b) {
+    static void compareNumbers() {
+        int a = 5;
+        int b = 8;
         if (a >= b) {
             System.out.println("Задание 4 " + "a>=b");
         } else {
@@ -51,8 +53,13 @@ public class Test {
         }
     }
 
-    public static boolean checkSumInRange(int a, int b) {
-        return a + b >= 10 && a + b <= 20;
+    static void checkSumInRange(int a, int b) {
+        int sum = a + b;
+        if (sum >= 10) {
+            if (sum <= 20) {
+                System.out.println("Задание 5 " + "true");
+            }
+        } else System.out.println("Задание 5 " + "false");
     }
 
 
@@ -62,8 +69,11 @@ public class Test {
         } else System.out.println("Задание 6 " + "Отрицательное число ");
     }
 
-    public static boolean isNegative(int a) {
-        return a < 0;
+    static void isNegative(int a) {
+        if (a > 0) {
+            System.out.println("Задание  7 " + "false");
+        } else System.out.println("Задание 7 " + "true");
+
     }
 
     static void printStringMultipleTimes(int a, String str) {
@@ -73,8 +83,16 @@ public class Test {
         }
     }
 
-    public static boolean checkLeapYear(int a) {
-        return (a % 4 == 0 && a % 100 != 0) || (a % 400 == 0);
+    static void checkLeapYear(int a) {
+        if (a % 400 == 0) {
+            System.out.println("Задание 9 " + "true");
+        } else if (a % 100 == 0) {
+            System.out.println("Задание 9 " + "false");
+        } else if (a % 4 == 0) {
+            System.out.println("Задание 9 " + "true");
+        } else {
+            System.out.println("Задание 9 " + "false");
+        }
     }
 
     static void toggleArrayElements() {
@@ -116,6 +134,8 @@ public class Test {
         int[][] table = new int[5][5];
         for (int i = 0; i < 5; i++) {
             table[i][i] = 1;
+        }
+        for (int i = 0; i < 5; i++) {
             table[i][5 - 1 - i] = 1;
         }
         for (int i = 0; i < 5; i++) {
