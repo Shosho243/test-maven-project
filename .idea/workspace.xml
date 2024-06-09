@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9de08284-1b36-4565-95bb-94d14d3a8c67" name="Changes" comment="">
+    <list default="true" id="f08fd0ac-a4ee-44ea-97f7-04290667be68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework13/ArrayOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework13/ArrayOperation.java" afterDir="false" />
     </list>
+    <list default="true" id="f08fd0ac-a4ee-44ea-97f7-04290667be68" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -22,8 +31,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-    &quot;associatedIndex&quot;: 3
-    }</component>
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2fHWOkaXVMS3bARidvaJhWtVo6m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,13 +41,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ArrayOperation.executor": "Run",
-    "Application.Homework13.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Lesson-13",
+    "git-widget-placeholder": "Merging Lesson6",
+    "kotlin-language-version-configured": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Legion/IdeaProjects/test-maven-project/test-maven-project/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -95,6 +115,7 @@
       </list>
     </recent_temporary>
   </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -105,7 +126,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9de08284-1b36-4565-95bb-94d14d3a8c67" name="Changes" comment="" />
+      <changelist id="f08fd0ac-a4ee-44ea-97f7-04290667be68" name="Changes" comment="" />
       <created>1713458453624</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -121,6 +142,15 @@
       <workItem from="1717315714228" duration="1192000" />
       <workItem from="1717937049012" duration="646000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson1">
+      <option name="closed" value="true" />
+      <created>1713727037902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713727037902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,10 +179,6 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson13" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -163,5 +189,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson1" />
   </component>
 </project>
