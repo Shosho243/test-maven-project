@@ -1,7 +1,7 @@
 package Factorial;
 
 public class FactorialCalculator {
-    public static long calculateFactorial(int number) {
+    public long calculateFactorial(int number) {
         if (number < 0) {
             throw new IllegalArgumentException("Number cannot be negative");
         }
@@ -11,10 +11,5 @@ public class FactorialCalculator {
         }
         return factorial;
     }
-
-    public static void main(String[] args) {
-        int number = 5;
-        long factorial = calculateFactorial(number);
-        System.out.println("Факториал числа " + number + " равен " + factorial);
-    }
 }
+
