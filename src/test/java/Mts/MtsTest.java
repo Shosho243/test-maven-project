@@ -151,22 +151,6 @@ public class MtsTest {
         String expectedSumInButtonText = "Оплатить 10.00 BYN";
         Assert.assertEquals(expectedSumInButtonText, sumInButtonText);
 
-        checkCardInputFields();
-
-        checkPaymentIcons();
-
-
-        driver.get("https://www.mts.by/");
-    }
-
-    private void selectService(String serviceName) {
-        WebElement serviceDropdown = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='select__header']")));
-        serviceDropdown.click();
-        WebElement serviceOption = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='" + serviceName + "']")));
-        serviceOption.click();
-    }
-
-    private void checkCardInputFields() {
         // Номер карты
         WebElement cardField = driver.findElement(By.xpath("//label[@class='ng-tns-c46-1 ng-star-inserted']"));
         String cardFieldText = cardField.getText();
@@ -184,9 +168,7 @@ public class MtsTest {
         String nameOwnerText = nameOwner.getText();
         String expectedNameOwnerText = "Имя держателя (как на карте)";
         Assert.assertEquals(expectedNameOwnerText, nameOwnerText);
-    }
 
-    private void checkPaymentIcons() {
         WebElement mastercardLogo = driver.findElement(By.xpath("//img[@src='assets/images/payment-icons/card-types/mastercard-system.svg']"));
         Assert.assertTrue(mastercardLogo.isDisplayed(), "Иконка MasterCard не отображается");
 
@@ -198,7 +180,18 @@ public class MtsTest {
 
         WebElement mirLogo = driver.findElement(By.xpath("//div[@class='cards-brands cards-brands_random ng-tns-c61-0 ng-star-inserted']"));
         Assert.assertTrue(mirLogo.isDisplayed(), "Иконка Мир не отображается");
+
+
+        driver.get("https://www.mts.by/");
     }
+
+    private void selectService(String serviceName) {
+        WebElement serviceDropdown = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='select__header']")));
+        serviceDropdown.click();
+        WebElement serviceOption = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='" + serviceName + "']")));
+        serviceOption.click();
+    }
+
 
     private void acceptCookies() {
         try {
