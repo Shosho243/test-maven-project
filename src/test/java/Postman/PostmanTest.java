@@ -15,7 +15,7 @@ public class PostmanTest {
         RestAssured.baseURI = "https://postman-echo.com";
     }
 
-    @Test
+    @Test(description = "тестирование Get запрос проверка тела ответа сравнить значения всех полей и кода ответа")
     public void testGetRequest() {
         given()
                 .queryParam("foo1", "bar1")
@@ -31,7 +31,8 @@ public class PostmanTest {
                 .body("url", equalTo("https://postman-echo.com/get?foo1=bar1&foo2=bar2"));
     }
 
-    @Test
+    @Test(description = "тестирование Post Raw Text запрос проверка тела ответа " +
+            "сравнить значения всех полей и кода ответа")
     public void testPostRawText() {
         Response response = given()
                 .log().all()
@@ -46,7 +47,8 @@ public class PostmanTest {
                 .extract().response();
     }
 
-    @Test
+    @Test(description = "тестирование Post From Date запрос проверка тела ответа " +
+            "сравнить значения всех полей и кода ответа")
     public void testPostFormData() {
         String jsonBody = "{\"foo1\":\"bar1\", \"foo2\":\"bar2\"}";
 
@@ -65,7 +67,7 @@ public class PostmanTest {
 
     }
 
-    @Test
+    @Test(description = "тестирование Put запрос проверка тела ответа сравнить значения всех полей и кода ответа")
     public void testPutRequest() {
         Response response = given()
                 .log().all()
@@ -80,7 +82,8 @@ public class PostmanTest {
                 .extract().response();
     }
 
-    @Test
+    @Test(description = "тестирование Patch запрос проверка тела ответа" +
+            " сравнить значения всех полей и кода ответа")
     public void testPatchRequest() {
         Response response = given()
                 .log().all()
@@ -95,7 +98,8 @@ public class PostmanTest {
                 .extract().response();
     }
 
-    @Test
+    @Test(description = "тестирование Delete запрос проверка тела ответа " +
+            "сравнить значения всех полей и кода ответа")
     public void testDeleteRequest() {
         Response response = given()
                 .log().all()
