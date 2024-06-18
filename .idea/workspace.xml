@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f08fd0ac-a4ee-44ea-97f7-04290667be68" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Postman/PostmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Postman/PostmanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson16" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,76 +38,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.MtsTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MtsTest.checkHomeInternetEmptyFieldTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MtsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Selenium [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Lesson17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Legion/IdeaProjects/test-maven-project/test-maven-project/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MtsTest (1).executor": "Run",
+    "JUnit.MtsTest.checkHomeInternetEmptyFieldTest.executor": "Run",
+    "JUnit.MtsTest.executor": "Run",
+    "Maven.Selenium [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.PostmanTest.testGetRequest.executor": "Run",
+    "TestNG.PostmanTest.testPostFormData.executor": "Run",
+    "TestNG.PostmanTest.testPostRawText.executor": "Run",
+    "git-widget-placeholder": "Lesson17",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Legion/IdeaProjects/test-maven-project/test-maven-project/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.PostmanTest">
-    <configuration name="Homework13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework13.Main" />
-      <module name="test-maven-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Main" />
-      <module name="test-maven-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MtsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-maven-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Mts" />
-      <option name="MAIN_CLASS_NAME" value="Mts.MtsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MtsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-maven-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MtsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostmanTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.PostmanTest.testDeleteRequest">
+    <configuration name="PostmanTest.testDeleteRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-maven-project" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +70,80 @@
       </extension>
       <option name="PACKAGE_NAME" value="Postman" />
       <option name="MAIN_CLASS_NAME" value="Postman.PostmanTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testDeleteRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanTest.testPatchRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Postman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Postman" />
+      <option name="MAIN_CLASS_NAME" value="Postman.PostmanTest" />
+      <option name="METHOD_NAME" value="testPatchRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanTest.testPostFormData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Postman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Postman" />
+      <option name="MAIN_CLASS_NAME" value="Postman.PostmanTest" />
+      <option name="METHOD_NAME" value="testPostFormData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanTest.testPostRawText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Postman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Postman" />
+      <option name="MAIN_CLASS_NAME" value="Postman.PostmanTest" />
+      <option name="METHOD_NAME" value="testPostRawText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanTest.testPutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Postman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Postman" />
+      <option name="MAIN_CLASS_NAME" value="Postman.PostmanTest" />
+      <option name="METHOD_NAME" value="testPutRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PostmanTest" />
-        <item itemvalue="JUnit.MtsTest (1)" />
-        <item itemvalue="JUnit.MtsTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Homework13.Main" />
+        <item itemvalue="TestNG.PostmanTest.testDeleteRequest" />
+        <item itemvalue="TestNG.PostmanTest.testPatchRequest" />
+        <item itemvalue="TestNG.PostmanTest.testPutRequest" />
+        <item itemvalue="TestNG.PostmanTest.testPostFormData" />
+        <item itemvalue="TestNG.PostmanTest.testPostRawText" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +192,6 @@
       <workItem from="1718634446196" duration="1974000" />
       <workItem from="1718636432137" duration="207000" />
       <workItem from="1718693933478" duration="919000" />
-      <workItem from="1718726182772" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <option name="closed" value="true" />
