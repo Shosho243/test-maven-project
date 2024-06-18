@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f08fd0ac-a4ee-44ea-97f7-04290667be68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <list default="true" id="f08fd0ac-a4ee-44ea-97f7-04290667be68" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,55 +30,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
+    &quot;associatedIndex&quot;: 3
+    }</component>
   <component name="ProjectId" id="2fHWOkaXVMS3bARidvaJhWtVo6m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging Lesson6",
-    "kotlin-language-version-configured": "true",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Legion/IdeaProjects/test-maven-project/test-maven-project/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Legion/IdeaProjects/test-maven-project/test-maven-project/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MtsTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsTest.checkHomeInternetEmptyFieldTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Lesson17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Legion/IdeaProjects/test-maven-project/test-maven-project/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ArrayOperation">
-    <configuration name="ArrayOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework13.ArrayOperation" />
-      <module name="test-maven-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="TestNG.PostmanTest">
     <configuration name="Homework13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework13.Main" />
       <module name="test-maven-project" />
@@ -106,16 +83,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MtsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mts" />
+      <option name="MAIN_CLASS_NAME" value="Mts.MtsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MtsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-maven-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostmanTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Postman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Postman" />
+      <option name="MAIN_CLASS_NAME" value="Postman.PostmanTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayOperation" />
+        <item itemvalue="TestNG.PostmanTest" />
+        <item itemvalue="JUnit.MtsTest (1)" />
+        <item itemvalue="JUnit.MtsTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Homework13.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -138,9 +156,17 @@
       <workItem from="1713798724117" duration="1492000" />
       <workItem from="1715496087710" duration="719000" />
       <workItem from="1715496818395" duration="544000" />
-      <workItem from="1717229080398" duration="387000" />
-      <workItem from="1717315714228" duration="1192000" />
-      <workItem from="1717937049012" duration="646000" />
+      <workItem from="1718191948990" duration="265000" />
+      <workItem from="1718192225395" duration="205000" />
+      <workItem from="1718197332664" duration="658000" />
+      <workItem from="1718562717182" duration="32000" />
+      <workItem from="1718562768152" duration="198000" />
+      <workItem from="1718563258438" duration="198000" />
+      <workItem from="1718617440160" duration="1742000" />
+      <workItem from="1718634446196" duration="1974000" />
+      <workItem from="1718636432137" duration="207000" />
+      <workItem from="1718693933478" duration="919000" />
+      <workItem from="1718726182772" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <option name="closed" value="true" />
@@ -150,11 +176,30 @@
       <option name="project" value="LOCAL" />
       <updated>1713727037902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson16">
+      <option name="closed" value="true" />
+      <created>1718562858571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718562858571</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson16">
+      <option name="closed" value="true" />
+      <created>1718636596029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718636596029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -179,18 +224,9 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson1" />
+    <MESSAGE value="lesson16" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson16" />
   </component>
 </project>
