@@ -48,16 +48,17 @@ public class MtsTest {
         WebElement phoneNumberField = driver.findElement(By.xpath("//input[@placeholder='Номер телефона']"));
         String phoneNumberText = phoneNumberField.getAttribute("placeholder");
         String expectedPhoneNumberPlaceholder = "Номер телефона";
-        Assert.assertEquals(expectedPhoneNumberPlaceholder, phoneNumberText);
 
         WebElement sumField = driver.findElement(By.xpath("//input[@class='total_rub']"));
         String sumFieldText = sumField.getAttribute("placeholder");
         String expectedSumPlaceholder = "Сумма";
-        Assert.assertEquals(expectedSumPlaceholder, sumFieldText);
 
         WebElement emailField = driver.findElement(By.xpath("//input[@class='email']"));
         String emailText = emailField.getAttribute("placeholder");
+
         String expectedEmailPlaceholder = "E-mail для отправки чека";
+        Assert.assertEquals(expectedPhoneNumberPlaceholder, phoneNumberText);
+        Assert.assertEquals(expectedSumPlaceholder, sumFieldText);
         Assert.assertEquals(expectedEmailPlaceholder, emailText);
     }
 
@@ -69,16 +70,17 @@ public class MtsTest {
         WebElement phoneNumberField = driver.findElement(By.xpath("//input[@placeholder='Номер абонента']"));
         String phoneNumberText = phoneNumberField.getAttribute("placeholder");
         String expectedPhoneNumberPlaceholder = "Номер абонента";
-        Assert.assertEquals(expectedPhoneNumberPlaceholder, phoneNumberText);
 
         WebElement sumField = driver.findElement(By.xpath("//input[@id='internet-sum']"));
         String sumFieldText = sumField.getAttribute("placeholder");
         String expectedSumPlaceholder = "Сумма";
-        Assert.assertEquals(expectedSumPlaceholder, sumFieldText);
 
         WebElement emailField = driver.findElement(By.xpath("//input[@id='internet-email']"));
         String emailFieldText = emailField.getAttribute("placeholder");
         String expectedEmailPlaceholder = "E-mail для отправки чека";
+
+        Assert.assertEquals(expectedPhoneNumberPlaceholder, phoneNumberText);
+        Assert.assertEquals(expectedSumPlaceholder, sumFieldText);
         Assert.assertEquals(expectedEmailPlaceholder, emailFieldText);
     }
 
@@ -90,16 +92,17 @@ public class MtsTest {
         WebElement accountNumberField = driver.findElement(By.xpath("//input[@id='score-instalment']"));
         String accountNumberText = accountNumberField.getAttribute("placeholder");
         String expectedAccountNumberPlaceholder = "Номер счета на 44";
-        Assert.assertEquals(expectedAccountNumberPlaceholder, accountNumberText);
 
         WebElement sumField = driver.findElement(By.xpath("//input[@id='instalment-sum']"));
         String sumFieldText = sumField.getAttribute("placeholder");
         String expectedSumPlaceholder = "Сумма";
-        Assert.assertEquals(expectedSumPlaceholder, sumFieldText);
 
         WebElement emailField = driver.findElement(By.xpath("//input[@id='instalment-email']"));
         String emailText = emailField.getAttribute("placeholder");
         String expectedEmailPlaceholder = "E-mail для отправки чека";
+
+        Assert.assertEquals(expectedAccountNumberPlaceholder, accountNumberText);
+        Assert.assertEquals(expectedSumPlaceholder, sumFieldText);
         Assert.assertEquals(expectedEmailPlaceholder, emailText);
     }
 
@@ -111,16 +114,19 @@ public class MtsTest {
         WebElement accountNumberField = driver.findElement(By.xpath("//input[@id='score-arrears']"));
         String accountNumberText = accountNumberField.getAttribute("placeholder");
         String expectedAccountNumberPlaceholder = "Номер счета на 2073";
-        Assert.assertEquals(expectedAccountNumberPlaceholder, accountNumberText);
+
 
         WebElement sumField = driver.findElement(By.xpath("//input[@id='arrears-sum']"));
         String sumFieldText = sumField.getAttribute("placeholder");
         String expectedSumPlaceholder = "Сумма";
-        Assert.assertEquals(expectedSumPlaceholder, sumFieldText);
+
 
         WebElement emailField = driver.findElement(By.xpath("//input[@id='arrears-email']"));
         String emailFieldText = emailField.getAttribute("placeholder");
         String expectedEmailPlaceholder = "E-mail для отправки чека";
+
+        Assert.assertEquals(expectedAccountNumberPlaceholder, accountNumberText);
+        Assert.assertEquals(expectedSumPlaceholder, sumFieldText);
         Assert.assertEquals(expectedEmailPlaceholder, emailFieldText);
     }
 
@@ -144,41 +150,43 @@ public class MtsTest {
         WebElement facticalResult = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(), 'Оплата:')]")));
         String actualResult = facticalResult.getText();
         String expectedResult = "Оплата: Услуги связи Номер:375297777777";
-        assertEquals(actualResult, expectedResult);
 
         WebElement sumInButton = driver.findElement(By.xpath("//*[text()=' Оплатить  10.00 BYN ']"));
         String sumInButtonText = sumInButton.getText().trim();
         String expectedSumInButtonText = "Оплатить 10.00 BYN";
-        Assert.assertEquals(expectedSumInButtonText, sumInButtonText);
 
         // Номер карты
         WebElement cardField = driver.findElement(By.xpath("//label[@class='ng-tns-c46-1 ng-star-inserted']"));
         String cardFieldText = cardField.getText();
         String expectedCardText = "Номер карты";
-        Assert.assertEquals(expectedCardText, cardFieldText);
 
         // Срок действия
         WebElement validity = driver.findElement(By.xpath("//label[@class='ng-tns-c46-4 ng-star-inserted']"));
         String validityText = validity.getText();
         String expectedValidityText = "Срок действия";
-        Assert.assertEquals(expectedValidityText, validityText);
 
         // Имя держателя
         WebElement nameOwner = driver.findElement(By.xpath("//label[@class='ng-tns-c46-3 ng-star-inserted']"));
         String nameOwnerText = nameOwner.getText();
         String expectedNameOwnerText = "Имя держателя (как на карте)";
-        Assert.assertEquals(expectedNameOwnerText, nameOwnerText);
 
         WebElement mastercardLogo = driver.findElement(By.xpath("//img[@src='assets/images/payment-icons/card-types/mastercard-system.svg']"));
-        Assert.assertTrue(mastercardLogo.isDisplayed(), "Иконка MasterCard не отображается");
+
 
         WebElement visaLogo = driver.findElement(By.xpath("//img[@src='assets/images/payment-icons/card-types/visa-system.svg']"));
-        Assert.assertTrue(visaLogo.isDisplayed(), "Иконка Visa не отображается");
 
         WebElement belcartLogo = driver.findElement(By.xpath("//img[@src='assets/images/payment-icons/card-types/belkart-system.svg']"));
-        Assert.assertTrue(belcartLogo.isDisplayed(), "Иконка Белкард не отображается");
 
         WebElement mirLogo = driver.findElement(By.xpath("//div[@class='cards-brands cards-brands_random ng-tns-c61-0 ng-star-inserted']"));
+
+        assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedSumInButtonText, sumInButtonText);
+        Assert.assertEquals(expectedCardText, cardFieldText);
+        Assert.assertEquals(expectedValidityText, validityText);
+        Assert.assertEquals(expectedNameOwnerText, nameOwnerText);
+        Assert.assertTrue(mastercardLogo.isDisplayed(), "Иконка MasterCard не отображается");
+        Assert.assertTrue(visaLogo.isDisplayed(), "Иконка Visa не отображается");
+        Assert.assertTrue(belcartLogo.isDisplayed(), "Иконка Белкард не отображается");
         Assert.assertTrue(mirLogo.isDisplayed(), "Иконка Мир не отображается");
 
 
